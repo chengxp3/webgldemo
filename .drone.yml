@@ -2,7 +2,7 @@ kind: pipeline
 name: deploy  
   
 steps:  
-- name: webgl-demo
+- name: hello-world
   image: docker  
   commands:  
-    - echo "webgl-demo"
+    - echo "hello world"
